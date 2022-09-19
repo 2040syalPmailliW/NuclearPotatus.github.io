@@ -20,7 +20,7 @@ document.getElementById('sci').addEventListener('click', () => {
 });
 
 function game(playerChoose) {
-    let computerChoose = Math.floor(Math.random()*3)
+    let computerChoose = Math.floor(Math.random()*4)
     let j = 1;
     for(let i = 0; i<j; i++) {
         switch (computerChoose) {
